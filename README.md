@@ -4,6 +4,22 @@
 Este projeto realiza web scraping para capturar links, imagens, título e meta descrição de uma página web fornecida.
 
 <details>
+  <summary> Estrutura do Projeto 🚧 </summary>
+  
+  - `src/`: Contém o código fonte do projeto.
+    
+  - `index.js`: Servidor Express que define a rota para scraping.
+   
+  - `scraper.js`: Função que realiza o web scraping utilizando Puppeteer.
+   
+  - `package.json`: Gerenciador de dependências.
+    
+  - `README.md`: Documentação do projeto.
+</details>
+
+<br/>
+
+<details>
   <summary> Requisitos 🚧 </summary>
   
   - Node.js  `20.5.0`
@@ -49,4 +65,14 @@ Este projeto realiza web scraping para capturar links, imagens, título e meta d
   4. Caso queira visualizar melhor os dados retornados através do JSON, existe uma extensão que possibilita isso, ela se chama <a href="https://chromewebstore.google.com/detail/gbmdgpbipfallnflgajpaliibnhdgobh"> JSON Viewer </a>.
      
   5. Substitua `<URL_ALVO>` pela URL que deseja capturar os dados.
+</details>
+
+<br/>
+
+<details>
+    <summary> Sobre o Puppeteer e sua instalação... </summary>
+  
+  - Para instalá-lo basta digitar o comando `npm install express puppeteer` no terminal.
+    
+  - O Puppeteer é uma biblioteca Node.js que fornece uma API de alto nível para controlar navegadores Chrome ou Chormium, ele é mantido pela própria equipe do Google Chrome e é amplamente utilizado para automatizar tarefas no navegador, como testes de interface de usuário, web scraping, captura de telas, geração de PDFs e muito mais.
 </details>
